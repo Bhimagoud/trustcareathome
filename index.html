@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TRUST CARE@HOME - Compassionate Care at Your Doorstep. Professional home healthcare services in Miraj, available 24/7.">
+    <meta name="keywords" content="home healthcare, medical care, nursing services, elderly care, Miraj">
+    <meta name="author" content="TRUST CARE@HOME">
+    <title>TRUST CARE@HOME - Compassionate Care at Your Doorstep</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Cursor Follower -->
+    <div class="cursor-follower"></div>
+
+    
+    <main>
+        <!-- HERO SECTION -->
+        <section id="home" class="hero">
+            <!-- HEADER (Sticky) -->
+            <header class="header">
+                <div class="header-container">
+                    <div class="logo">
+                        <img src="assets/images/logo_h.png" alt="TRUST CARE@HOME Logo" class="logo-image">
+                    </div>
+                    
+                    <!-- Mobile Menu Toggle -->
+                    <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu" aria-expanded="false">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <!-- Navigation -->
+                    <nav class="nav" id="navMenu">
+                        <a href="#home" class="nav-link active">Home</a>
+                        <a href="#about" class="nav-link">About</a>
+                        <a href="#services" class="nav-link">Services</a>
+                        <a href="#contact" class="nav-link nav-link-cta">Contact Us</a>
+                    </nav>
+                </div>
+            </header>
+            <div class="hero-content">
+                <div class="hero-badge">Compassionate Care at Your Doorstep</div>
+                <h1 class="hero-title">Professional Home Healthcare You Can Trust</h1>
+                <p class="hero-subtitle">Expert medical care delivered to your home with compassion and dignity.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" id="ctaButton">
+                        <span>Book a Consultation</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </button>
+                    <button class="btn btn-secondary" id="learnMoreBtn">View Our Services</button>
+                </div>
+                <div class="trust-indicators">
+                    <div class="trust-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+                        </svg>
+                        <span>24/7 Care Available</span>
+                    </div>
+                    <div class="trust-item">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                        <span>Verified Professionals</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-carousel" aria-label="Hero image carousel">
+                <div class="hero-carousel-inner">
+                    <div class="hero-carousel-track" id="heroCarouselTrack">
+                        <div class="hero-carousel-slide">
+                            <img src="assets/images/carosal3.jpg" alt="Professional healthcare at home" loading="eager">
+                        </div>
+                        <div class="hero-carousel-slide">
+                            <img src="assets/images/carosal1.jpg" alt="Trust Care at Home - Compassionate care" loading="lazy">
+                        </div>
+                        <div class="hero-carousel-slide">
+                            <img src="assets/images/carosal2.jpg" alt="24/7 home healthcare in Miraj" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-carousel-dots" id="heroCarouselDots" aria-hidden="true"></div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about">
+            <div class="container about-container">
+                <div class="about-section-header">
+                    <span class="about-tag">About Us</span>
+                    <h2 class="about-heading">Your Trusted Partner in <span class="about-heading-accent">Home Healthcare</span></h2>
+                </div>
+                <div class="about-wrapper">
+                    <!-- Left: Image with stat cards -->
+                    <div class="about-image-wrap">
+                        <img src="assets/images/carosal1.jpg" alt="Healthcare professional - Trust Care at Home" class="about-image">
+                        <div class="about-image-text">Dr Sample</div>
+                        <div class="about-stats">
+                            <div class="about-stat-card">
+                                <span class="about-stat-number">15+</span>
+                                <span class="about-stat-label">Years Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right: Content -->
+                    <div class="about-content">
+                        <div class="about-mission-vision">
+                            <div class="about-mv-card">
+                                <h3>Our Mission</h3>
+                                <p>To provide compassionate, accessible, and high-quality healthcare services that empower patients to recover and thrive in comfort of their homes.</p>
+                            </div>
+                            <div class="about-mv-card">
+                                <h3>Our Vision</h3>
+                                <p>To become the most trusted name in home healthcare, setting new standards for patient-centered care and clinical excellence.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Contact Information -->
+                        <div class="about-contacts">
+                            <h3>Contact Information</h3>
+                            <div class="about-contact-grid">
+                                <div class="about-contact-item">
+                                    <h4>Call / WhatsApp</h4>
+                                    <p><a href="tel:+919922966933">+91 9922966933</a></p>
+                                    <p class="contact-label">CEO: D R Patil</p>
+                                </div>
+                                
+                                <div class="about-contact-item">
+                                    <h4>Care Coordinator</h4>
+                                    <p><a href="tel:+919922966233">+91 9922966233</a></p>
+                                    <p class="contact-label">Nikita Samudre</p>
+                                </div>
+                                
+                                <div class="about-contact-item">
+                                    <h4>Clinical Coordinator</h4>
+                                    <p><a href="tel:+919922966733">+91 9922966733</a></p>
+                                    <p class="contact-label">Sandesh Mohite</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Our Services</span>
+                    <h2>Comprehensive Home Healthcare Solutions</h2>
+                    <p class="section-subtitle">Professional care tailored to your specific needs</p>
+                </div>
+                
+                <div class="services-list" id="servicesList">
+                    <div class="service-item" data-service="nursing">
+                        <div class="service-item-content">
+                            <span class="service-name">Nursing Care at Home</span>
+                        </div>
+                        <div class="service-hover-card" id="nursing-card">
+                            <h4>Nursing Care at Home</h4>
+                            <p>Professional nursing support including wound care, medication management, and post-operative care by certified nurses.</p>
+                            <ul>
+                                <li>24/7 nursing availability</li>
+                                <li>Certified professionals</li>
+                                <li>Personalized care plans</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item" data-service="physio">
+                        <div class="service-item-content">
+                            <span class="service-name">Physiotherapy</span>
+                        </div>
+                        <div class="service-hover-card" id="physio-card">
+                            <h4>Physiotherapy</h4>
+                            <p>Rehabilitation and physical therapy services designed to restore mobility and improve quality of life.</p>
+                            <ul>
+                                <li>Mobility exercises</li>
+                                <li>Pain relief therapy</li>
+                                <li>Rehabilitation programs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item" data-service="doctor">
+                        <div class="service-item-content">
+                            <span class="service-name">Doctor Online Consultation</span>
+                        </div>
+                        <div class="service-hover-card" id="doctor-card">
+                            <h4>Doctor Online Consultation</h4>
+                            <p>Connect with experienced doctors remotely for medical advice, prescriptions, and health consultations.</p>
+                            <ul>
+                                <li>Video consultations</li>
+                                <li>Expert medical advice</li>
+                                <li>Digital prescriptions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item" data-service="postop">
+                        <div class="service-item-content">
+                            <span class="service-name">Palliative & Post-operative Care</span>
+                        </div>
+                        <div class="service-hover-card" id="postop-card">
+                            <h4>Palliative & Post-operative Care</h4>
+                            <p>Specialized care for patients recovering from surgery and those needing palliative support with comfort.</p>
+                            <ul>
+                                <li>Wound care & dressing</li>
+                                <li>Pain management</li>
+                                <li>Recovery monitoring</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item" data-service="iv">
+                        <div class="service-item-content">
+                            <span class="service-name">IV Therapy at Home</span>
+                        </div>
+                        <div class="service-hover-card" id="iv-card">
+                            <h4>IV Therapy at Home</h4>
+                            <p>Professional intravenous therapy administration including hydration, medications, and nutritional support.</p>
+                            <ul>
+                                <li>Professional administration</li>
+                                <li>Sterile equipment</li>
+                                <li>Monitored therapy</li>
+                            </ul>
+                            <script>
+        // Service hover functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const serviceItems = document.querySelectorAll('.service-item');
+            const hoverCards = document.querySelectorAll('.service-hover-card');
+            
+            serviceItems.forEach(item => {
+                const serviceName = item.dataset.service;
+                const card = document.getElementById(serviceName + '-card');
+                
+                item.addEventListener('mouseenter', function(e) {
+                    const rect = item.getBoundingClientRect();
+                    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                    const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+                    
+                    // Position card below the service item
+                    card.style.position = 'fixed';
+                    card.style.top = (rect.bottom + scrollTop + 10) + 'px';
+                    card.style.left = (rect.left + scrollLeft) + 'px';
+                    card.style.right = 'auto';
+                    card.style.opacity = '1';
+                    card.style.visibility = 'visible';
+                    card.style.transform = 'translateY(0px)';
+                    card.style.zIndex = '99999';
+                    card.style.pointerEvents = 'auto';
+                });
+                
+                item.addEventListener('mouseleave', function() {
+                    const card = document.getElementById(serviceName + '-card');
+                    card.style.opacity = '0';
+                    card.style.visibility = 'hidden';
+                    card.style.transform = 'translateY(-10px)';
+                    card.style.pointerEvents = 'none';
+                });
+            });
+        });
+    </script>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item" data-service="lab">
+                        <div class="service-item-content">
+                            <span class="service-name">Lab Sample Collection</span>
+                        </div>
+                        <div class="service-hover-card" id="lab-card">
+                            <h4>Lab Sample Collection</h4>
+                            <p>Convenient home collection of blood, urine, and other lab samples with safe transportation.</p>
+                            <ul>
+                                <li>Home sample collection</li>
+                                <li>Certified labs</li>
+                                <li>Digital reports</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item" data-service="ambulance">
+                        <div class="service-item-content">
+                            <span class="service-name">Ambulance Service</span>
+                        </div>
+                        <div class="service-hover-card" id="ambulance-card">
+                            <h4>Ambulance Service</h4>
+                            <p>Emergency and non-emergency ambulance services with trained medical staff for safe transportation.</p>
+                            <ul>
+                                <li>24/7 availability</li>
+                                <li>Medical equipment</li>
+                                <li>Trained staff</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item" data-service="diet">
+                        <div class="service-item-content">
+                            <span class="service-name">Dietician Consultation</span>
+                        </div>
+                        <div class="service-hover-card" id="diet-card">
+                            <h4>Dietician Consultation</h4>
+                            <p>Personalized nutrition plans and dietary guidance from expert dieticians for optimal health.</p>
+                            <ul>
+                                <li>Custom diet plans</li>
+                                <li>Nutritional counseling</li>
+                                <li>Health monitoring</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item" data-service="ayurved">
+                        <div class="service-item-content">
+                            <span class="service-name">Ayurved Services</span>
+                        </div>
+                        <div class="service-hover-card" id="ayurved-card">
+                            <h4>Ayurved Services</h4>
+                            <p>Traditional Ayurvedic treatments and therapies for holistic healing and wellness.</p>
+                            <ul>
+                                <li>Traditional treatments</li>
+                                <li>Natural remedies</li>
+                                <li>Holistic approach</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item" data-service="pharmacy">
+                        <div class="service-item-content">
+                            <span class="service-name">Pharmacy - Medicine Supply</span>
+                        </div>
+                        <div class="service-hover-card" id="pharmacy-card">
+                            <h4>Pharmacy - Medicine Supply</h4>
+                            <p>Reliable home delivery of prescription medicines, over-the-counter drugs, and medical supplies.</p>
+                            <ul>
+                                <li>Home delivery</li>
+                                <li>Prescription drugs</li>
+                                <li>Medical supplies</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Contact Us</span>
+                    <h2 class="contact-main-title">Ready to Experience Compassionate Care?</h2>
+                    <p class="section-subtitle">Reach out today</p>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="contact-form-wrapper contact-form-centered">
+                        <div class="contact-form-header">
+                            <h3>Request a Callback</h3>
+                        </div>
+                        <form class="contact-form" id="contactForm" novalidate>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Full Name *</label>
+                                    <input type="text" id="name" name="name" required aria-required="true" placeholder="Your name">
+                                    <span class="error-message" id="nameError"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number *</label>
+                                    <input type="tel" id="phone" name="phone" required aria-required="true" placeholder="+91 98765 43210">
+                                    <span class="error-message" id="phoneError"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" placeholder="your@email.com">
+                                    <span class="error-message" id="emailError"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="service">Service Required</label>
+                                    <select id="service" name="service">
+                                        <option value="">Select a service</option>
+                                        <option value="nursing">Nursing Care</option>
+                                        <option value="physio">Physiotherapy</option>
+                                        <option value="doctor">Doctor Consultation</option>
+                                        <option value="postop">Post-operative Care</option>
+                                        <option value="iv">IV Therapy</option>
+                                        <option value="lab">Lab Collection</option>
+                                        <option value="ambulance">Ambulance</option>
+                                        <option value="diet">Dietician</option>
+                                        <option value="ayurved">Ayurved</option>
+                                        <option value="pharmacy">Pharmacy</option>
+                                    </select>
+                                    <span class="error-message" id="serviceError"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Tell Us About Your Care Needs</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Briefly describe the patient's condition, care requirements, and preferred schedule..."></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-primary btn-submit">
+                                    <span>Submit Request</span>
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 2L11 13M22 2l-7 20-4-7M11 13L4 22m7-9l-4 4"/>
+                                    </svg>
+                                </button>
+                                <p class="form-notice">We'll get back to you within 2 hours</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+                </div>
+            </div>
+
+            <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Trustcare Home Healthcare</h4>
+                    <p class="footer-tagline">Your trusted partner for compassionate home healthcare services</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Call: <a href="tel:+919922966933">+91 99229 66933</a></p>
+                    <p>Email: <a href="mailto:info@trustcare.com">info@trustcare.com</a></p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Trustcare Home Healthcare. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Service hover functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const serviceItems = document.querySelectorAll('.service-item');
+            
+            serviceItems.forEach(item => {
+                const serviceName = item.dataset.service;
+                const card = document.getElementById(serviceName + '-card');
+                
+                item.addEventListener('mouseenter', function(e) {
+                    // Close all other cards first
+                    document.querySelectorAll('.service-hover-card').forEach(otherCard => {
+                        if (otherCard !== card) {
+                            otherCard.style.opacity = '0';
+                            otherCard.style.visibility = 'hidden';
+                            otherCard.style.transform = 'translateY(-10px)';
+                            otherCard.style.pointerEvents = 'none';
+                        }
+                    });
+                    
+                    // Show current card
+                    const rect = item.getBoundingClientRect();
+                    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                    const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+                    
+                    card.style.position = 'fixed';
+                    card.style.top = (rect.bottom + scrollTop + 10) + 'px';
+                    card.style.left = (rect.left + scrollLeft) + 'px';
+                    card.style.right = 'auto';
+                    card.style.opacity = '1';
+                    card.style.visibility = 'visible';
+                    card.style.transform = 'translateY(0px)';
+                    card.style.zIndex = '99999';
+                    card.style.pointerEvents = 'auto';
+                });
+                
+                item.addEventListener('mouseleave', function() {
+                    const card = document.getElementById(serviceName + '-card');
+                    card.style.opacity = '0';
+                    card.style.visibility = 'hidden';
+                    card.style.transform = 'translateY(-10px)';
+                    card.style.pointerEvents = 'none';
+                });
+            });
+        });
+    </script>
+
+    <!-- JavaScript -->
+    <script src="js/navbar-hero-merge.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
